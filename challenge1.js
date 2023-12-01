@@ -7,7 +7,7 @@ const words = []
 
 const readStream = fs.createReadStream('challenge1words.txt')
 
-// uses readline to read each individual line from the stream created above (stackOverflow)
+// uses readline to read each individual line from the stream created above
 
 const eachLine = readline.createInterface({
     input: readStream,
