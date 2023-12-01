@@ -3,7 +3,7 @@ const readline = require('readline')
 
 const words = []
 
-// create live readStream to read text file with words
+// create readStream to read text file with words
 
 const readStream = fs.createReadStream('challenge1words.txt')
 
